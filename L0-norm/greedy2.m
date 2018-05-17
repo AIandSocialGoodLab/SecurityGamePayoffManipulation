@@ -1,4 +1,4 @@
-% L0-Greedy2 algorithm for L^0 payoff manipulation [Shi et al., 2017], appendix
+% L0-Greedy2 algorithm for L^0 payoff manipulation [Shi et al., 2018], appendix
 % Input:
 % Params: 4xn positive payoff matrix, n is the number of targets
 % B: budget

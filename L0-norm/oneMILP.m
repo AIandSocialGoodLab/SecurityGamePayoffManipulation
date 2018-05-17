@@ -1,4 +1,4 @@
-% MILP for L^0 payoff manipulation [Shi et al., 2017], appendix
+% MILP for L^0 payoff manipulation [Shi et al., 2018], appendix
 % Input:
 % n: number of targets
 % Params: 4xn positive payoff matrix (negation done inside the function)

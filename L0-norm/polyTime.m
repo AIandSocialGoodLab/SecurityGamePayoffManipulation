@@ -1,4 +1,4 @@
-% O(n^3) algorithm for L^0 payoff manipulation [Shi et al., 2017]
+% O(n^3) algorithm for L^0 payoff manipulation [Shi et al., 2018]
 % Input:
 % n: number of targets
 % Params: 4xn positive payoff matrix (negation done inside the function)
