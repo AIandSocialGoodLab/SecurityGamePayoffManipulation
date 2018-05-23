@@ -1,0 +1,25 @@
+This repo contains the code for reproducing experiments for L1-norm case.
+
+There are two main experiments.
+
+1. Small instance: comparison of BnB, singleMILP, multiMILP, NonConv algorithms in terms of runtime and solution (multiplicative) gap w.r.t. BnB algorithm on instance size = 10, 20, …, 50
+
+2. Big instance: comparison of BnB and NonConv algorithms in terms of runtime and solution (multiplicative) gap w.r.t. BnB algorithm on instance size = 100, 200, …, 1000
+
+Due to scalability issue, we did not test singleMILP for the big instance test.
+
+Any feedback or bug reports are welcome.
+
+Prerequisite:
+
+1. Gurobi Python API (http://www.gurobi.com/downloads/download-center)
+2. IPOPT (https://projects.coin-or.org/Ipopt)
+3. Pyomo, used to call IPOPT in Python (http://www.pyomo.org/installation/)
+
+Run experiments (plots will be generated after each experiment):
+
+1. small instance: python ./test_small.py
+2. big instance: python ./test_big.py
+
+
+
