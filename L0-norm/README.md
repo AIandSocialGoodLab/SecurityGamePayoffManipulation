@@ -1,11 +1,6 @@
-
-Requires IBM ILOG CPLEX Optimization Studio 12.8+
-
-
-
 This repo contains the code for reproducing experiments for L0-norm case.
 
-Code corresponding to the algorithms introduced in the paper, with dependences.
+Correspondences and dependencies between the code and the algorithms introduced in the paper.
 
 - O(n^3):  polyTime.m  <-- randomSelect.m
 - MILP: oneMILP.m
@@ -21,8 +16,8 @@ w.r.t. O(n^3) and MILP on instance sizes = 50, 100, ..., 250, with
 1. m=1 defensive resource, and
 2. m=n/10 defensive resources
 
-Any feedback or bug reports are welcome.
-
 Prerequisite:
 IBM ILOG CPLEX Optimization Studio 12.8+ [[https://www.ibm.com/products/ilog-cplex-optimization-studio]](https://www.ibm.com/products/ilog-cplex-optimization-studio)
 for solving MILPs.
+
+Any feedback or bug reports are welcome.
